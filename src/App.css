@@ -63,4 +63,30 @@ nav ul li a {
   color: aliceblue;
 }
 
+header {
+  height: 90vh;
+  background-image: url('./img/back.jpg');
+  background-size: cover;
+}
 
+header h1 {
+  /* font-family: Futura; */
+  color: aqua;
+  letter-spacing: 1px;
+  position:absolute;
+  top: 12vh;
+  left: 12vh;
+  font-size: 5vh;
+  font-weight: bold;
+}
+
+header .typed {
+  color: aqua;
+  position: absolute;
+  top: 20vh;
+  left: 12vh;
+  font-family: cursive;
+  font-size: 3vh;
+  font-weight: bold;
+  display: inline-block;
+}
