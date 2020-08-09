@@ -90,3 +90,18 @@ header .typed {
   font-weight: bold;
   display: inline-block;
 }
+
+.about {
+  background-color: rgb(18, 11, 58);
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.about .about-text {
+  color: white;
+}
+
+.about .profile-pic {
+  height: 30vh;
+  width: 30vh;
+}
