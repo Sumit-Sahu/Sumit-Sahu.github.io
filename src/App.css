@@ -105,3 +105,16 @@ header .typed {
   height: 30vh;
   width: 30vh;
 }
+
+/* hr {
+  color: #282c34;
+  display: block;
+  margin-block-start: 100px;
+}
+
+hr .star-primary {
+  border-color: black;
+  border-top: solid 5px;
+  max-width: 250px;
+
+} */

@@ -1,6 +1,5 @@
 import React from 'react';
 import TypedText from './Typed'
-import Navbar from './navbar'
 
 // var typed = new Typed(".type", {
 //     strings: ["I'm Sumit Sahu", "A CS Undergrad at IIIT Jabalpur","I'm a Software Developer","I love building amazing products","Let's Build Together!","Let's Hack Together!"],
