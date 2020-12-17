@@ -1,17 +1,15 @@
 import React from 'react';
-import './App.css';
-import Navbar from './component/navbar'
-import Home from './component/home'
+import './css/App.css'
 import Header from './component/Header'
-import About from './component/about'
-import Project from './component/project'
+import About from './component/About'
+import Skills from './component/Skills';
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
       <Header />
-      {/* <About /> */}
+      <About />
+      <Skills />
       {/* <Project /> */}
     </div>
     
