@@ -1,0 +1,165 @@
+@import './variables';
+
+/* === Google Fonts ===*/
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* ==== Typography ====*/
+:root {
+  --body-font: "Raleway", sans-serif;
+  --big-font-size: 2rem;
+  --medium-font-size:1rem;
+  --normal-font-size:0.938rem;
+
+  @media screen and (min-width: 768px) {
+    --big-font-size: 3.5rem;
+    --medium-font-size:2rem;
+    --normal-font-size:1rem;
+  }
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: $color-secondary;
+}
+
+header {
+  height:110vh;
+  width: 100%;
+  position: relative;
+  background-image: url('../img/back.jpg');
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #011f41;
+  .greet-block {
+    top: 160px;
+    padding: 20px;
+    position: absolute;
+    font-size: var(--medium-font-size);
+    font-weight: bold;
+    .greet {
+      font-size: var(--big-font-size);
+      font-weight: bold;
+      .greet-title_color{
+        color: aquamarine;
+      }
+    }
+  }
+}
+
+/* Section Styling */
+.section-title {
+  color: $color-secondary;
+  position: relative;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+  width: 100%;
+
+  @media only screen and (max-width: $bp-lg) {
+    font-size: 2rem;
+  }
+  @media only screen and (max-width: $bp-sm) {
+    text-align: center;
+  }
+
+  &::before,
+  &::after {
+    position: absolute;
+    pointer-events: none;
+  }
+  &::before {
+    content: '';
+    width: 10rem;
+    // height: 20rem;
+    border-bottom: 2px solid $color-highlight;
+    // background: no-repeat center url(./img/text-bg.png);
+    // background-size: contain;
+    // left: -3rem;
+    bottom: 0;
+    opacity: 0.4;
+
+    @media only screen and (max-width: $bp-sm) {
+      width: 20%;
+      // left: 50%;
+      // transform: translateX(-50%);
+    }
+  }
+
+  &::after {
+    content: attr(data-title);
+    top: 0;
+    right: 0;
+    opacity: 0.04;
+    font-size: 15rem;
+    font-weight: 700;
+    color: #93b6f180;
+    letter-spacing: 0.3rem;
+    line-height: 1;
+
+    @media only screen and (max-width: $bp-lg) {
+      font-size: 13rem;
+      letter-spacing: 0;
+    }
+    @media only screen and (max-width: $bp-sm) {
+      display: none;
+    }
+  }
+}
+
+/* About Styling */
+.about {
+  background-color: $color-primary;
+  // min-height: 100vh;
+  padding: 30px;
+
+}
+
+.skills {
+  background-color: $color-primary;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// .typed {
+//   color: aqua;
+//   /* position: absolute; */
+//   top: 20vh;
+//   left: 12vh;
+//   font-family: cursive;
+//   font-size: 3vh;
+//   font-weight: bold;
+//   display: inline-block;
+// }
