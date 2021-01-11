@@ -81,6 +81,7 @@ header {
 .section-title {
   color: $color-secondary;
   position: relative;
+  font-weight: bold;
   font-size: 3rem;
   margin-bottom: 5rem;
   width: 100%;
@@ -144,9 +145,39 @@ header {
 
 }
 
+/* Skills Styling */
 .skills {
   background-color: $color-primary;
   padding: 30px;
+  .skills_container {
+    .skills_list {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  &_heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    @media only screen and (max-width: $bp-lg) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &_item {
+    padding: 1rem 1rem;
+    text-align: center;
+    img,i {
+      display: block;
+      font-size: 4rem;
+      padding-bottom: 1rem;
+      filter: grayscale(100%);
+    }
+  }
 }
 
 .projects {
