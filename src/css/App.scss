@@ -5,11 +5,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
 
 
-.App {
-  overflow: hidden;
-  position: relative;
-  margin: 0 auto;
-}
 
 *{
   padding: 0px;
@@ -44,6 +39,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: $color-secondary;
+  background-color: $color-primary;
 }
 
 header {
@@ -200,3 +196,15 @@ header {
   padding: 30px;
 }
 
+
+
+
+.footer {
+  background-color: $color-black;
+  text-align: center;
+  .copyright{
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+}

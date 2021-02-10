@@ -1,11 +1,5 @@
 /* === Google Fonts ===*/
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
-.App {
-  overflow: hidden;
-  position: relative;
-  margin: 0 auto;
-}
-
 * {
   padding: 0px;
   margin: 0px;
@@ -43,6 +37,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: #cccccc;
+  background-color: #011f41;
 }
 
 header {
@@ -220,5 +215,16 @@ header .header_social a {
 .contact {
   background-color: #011f41;
   padding: 30px;
+}
+
+.footer {
+  background-color: #050505;
+  text-align: center;
+}
+
+.footer .copyright {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  padding: 10px;
 }
 /*# sourceMappingURL=App.css.map */
