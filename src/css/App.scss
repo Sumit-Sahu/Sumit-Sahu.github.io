@@ -21,7 +21,7 @@
   @media screen and (min-width: 768px) {
     --big-font-size: 3.5rem;
     --medium-font-size:2rem;
-    --normal-font-size:1rem;
+    --normal-font-size:1.2rem;
   }
 }
 
@@ -40,6 +40,16 @@ body {
   font-size: var(--normal-font-size);
   color: $color-secondary;
   background-color: $color-primary;
+}
+
+.link_button{
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  border-radius: .3rem;
+
+  &:hover{
+    text-decoration: none;
+  }
 }
 
 header {
@@ -89,8 +99,8 @@ header {
   color: $color-secondary;
   position: relative;
   font-weight: bold;
-  font-size: 3rem;
-  margin-bottom: 5rem;
+  font-size: var(--big-font-size);
+  margin-bottom: 2rem;
   width: 100%;
 
   @media only screen and (max-width: $bp-lg) {
@@ -149,7 +159,15 @@ header {
   background-color: $color-primary;
   // min-height: 100vh;
   padding: 30px;
-
+  .about_description {
+    font-size: var(--medium-font-size);
+  }
+  .link_button{
+    font-size: var(--medium-font-size);
+    color: $color-highlight;
+    border: 1px solid #555;
+    transition: all .5s ease;
+  }
 }
 
 /* Skills Styling */
@@ -189,12 +207,66 @@ header {
 .projects {
   background-color: $color-primary;
   padding: 30px;
+  .projects{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1.5rem;
+
+    @media only screen and (min-width: $bp-lg){
+          grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project {
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 70%;
+      }
+    }
+  }
 }
 
 .contact {
   background-color: $color-primary;
   padding: 30px;
+  p {
+    font-size: var(--medium-font-size);
+    text-align: center;
+  }
+  .contact_social {
+    bottom: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    padding: 1rem;
+    flex-direction: row;
+    a {
+      padding: 1rem;
+      color: $color-highlight;
+    }
+  }
+  .link_button{
+    font-size: var(--medium-font-size);
+    color: $color-highlight;
+    border: 1px solid #555;
+    transition: all .5s ease;
+    margin-right: 2rem;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -204,7 +276,7 @@ header {
   text-align: center;
   .copyright{
     margin-bottom: 0;
-    font-size: 1.2rem;
+    font-size: var(--normal-font-size);
     padding: 10px;
   }
 }

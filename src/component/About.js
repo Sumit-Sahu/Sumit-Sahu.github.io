@@ -11,7 +11,7 @@ const About = () => {
                     <p>Hi, I'm Sumit Sahu, I will be graduating with a B.Tech in CSE from IIITDM, Jabalpur in May 2022</p>
                     <p>In addition to my knowledge, I am actively learning and expanding my knowledge every day and staying up to date with trends and current standards in the industry</p>
                 </div>
-                {/* <a className="" href={resume} target="_blank" rel="noopener noreferrer">Download Resume</a> */}
+                <a className="link_button" href={resume} target="_blank" rel="noopener noreferrer">View Resume</a>
             </div>
         </section>
         </>
