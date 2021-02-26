@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import TypedText from './Typed'
 
 
