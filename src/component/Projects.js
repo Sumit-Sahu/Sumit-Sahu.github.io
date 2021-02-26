@@ -7,42 +7,73 @@ import bookvigyapan from '../img/bookvigyapan.png'
 function Projects() {
     return (
         <>
-        <section id="projects" className="projects">
-            <div className="container">
-                <h2 className="section-title" data-title="Projects"> Projects </h2>
-                <div className="projects">
-                    <div className="project">
-                        
-                        <img src={unite} alt=""></img>
-                        <article>
-                            <h2>Unite</h2>
-                            <h4>A video conference website that allows users to meet online, with or without video</h4>
-                        </article>
-                    </div>
-                    <div className="project">
-                        <img src={mail} alt=""></img>
-                        <article>
-                            <h2>SimpleMail</h2>
-                            <h4>website that send mail using Gmail API</h4>
-                        </article>
-                    </div>
-                    <div className="project">
-                        <img src={portfolio} alt=""></img>
-                        <article>
-                            <h2>Portfolio Website</h2>
-                            <h4>My portfolio website</h4>
-                        </article>
-                    </div>
-                    <div className="project">
-                        <img src={bookvigyapan} alt=""></img>
-                        <article>
-                            <h2>Vigyapan</h2>
-                            <h4>Proposed a landing page for Startup</h4>
-                        </article>
+            <section id="projects" className="projects-container">
+                <div className="container">
+                    <h2 className="section-title" data-title="Projects"> Projects </h2>
+                    <div className="projects">
+                        <div className="project">
+                            <div className="cover">
+                                <img src={unite} alt=""></img>
+                                <div className="name">
+                                    <h2>Unite</h2>
+                                    <div className="links">
+                                    <a target="_blank" href="https://justunite.herokuapp.com/">See Live</a>
+                                    <a target="_blank" href="https://github.com/Sumit-Sahu/unite">Github</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="description">
+                                <p>A video conference website that allows users to meet online, with or without video</p>
+                            </div>
+                        </div>
+                        <div className="project">
+                            <div className="cover">
+                                <img src={mail} alt=""></img>
+                                <div className="name">
+                                    <h2>SimpleMail</h2>
+                                    <div className="links">
+                                    <a target="_blank" href="https://testapi.pythonanywhere.com/">See Live</a>
+                                    <a target="_blank" href="https://github.com/Sumit-Sahu/simplemail">Github</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="description">
+                                <p>website that send mail using Gmail API</p>
+                            </div>
+                        </div>
+                        <div className="project">
+                            <div className="cover">
+                                <img src={portfolio} alt=""></img>
+                                <div className="name">
+                                    <h2>Portfolio Website</h2>
+                                    <div className="links">
+                                    <a target="_blank" href="https://sumit-sahu.github.io/">See Live</a>
+                                    <a target="_blank" href="https://github.com/Sumit-Sahu/Sumit-Sahu.github.io">Github</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="description">
+                                <p>My portfolio website</p>
+                            </div>
+                        </div>
+                        <div className="project">
+                            <div className="cover">
+                                <img src={bookvigyapan} alt=""></img>
+                                <div className="name">
+                                    <h2>Vigyapan</h2>
+                                    <div className="links">
+                                    <a target="_blank" href="https://oohh.herokuapp.com/">See Live</a>
+                                    <a target="_blank" href="https://github.com/Sumit-Sahu/vigyapan">Github</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="description">
+                                <p>Proposed a landing page for Startup</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
         </>
     )
 }

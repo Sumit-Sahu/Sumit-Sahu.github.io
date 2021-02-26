@@ -84,6 +84,11 @@ header {
     position: absolute;
     font-size: var(--medium-font-size);
     font-weight: bold;
+
+    @media only screen and (min-width: $bp-sm) {
+      padding-left: 5rem;;
+    }
+
     .greet {
       font-size: var(--big-font-size);
       font-weight: bold;
@@ -140,7 +145,7 @@ header {
     opacity: 0.14;
     font-size: 10rem;
     font-weight: 700;
-    color: #93b6f180;
+    color: #93b5f1;
     letter-spacing: 0.3rem;
     line-height: 1;
 
@@ -204,7 +209,7 @@ header {
   }
 }
 
-.projects {
+.projects-container {
   background-color: $color-primary;
   padding: 30px;
   .projects{
@@ -218,10 +223,38 @@ header {
 
     .project {
       overflow: hidden;
+      border-radius: 1rem;
+      .cover {
+        position: relative;
+        .name {
+          position: absolute;
+          bottom: 0;
+          display: block;
+          width: 100%;
+          box-sizing: border-box;
+          padding: 3rem 1rem 1rem;
+          background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.933));
+          h2 {
+            font-weight: bold;
+          }
+        }
+        .links {
+          display: flex;
+          justify-content: space-around;
+          a {
+            color: $color-secondary;
+          }
+        }
+      }
+      .description {
+        background: #121212;
+        padding: 1rem 1rem;
+        height: 100%;
+      }
 
       img {
         width: 100%;
-        height: 70%;
+        height: 300px;
       }
     }
   }
