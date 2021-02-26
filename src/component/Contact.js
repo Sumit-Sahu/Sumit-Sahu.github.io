@@ -10,8 +10,8 @@ function Contact() {
                     <h2 className="section-title" data-title="Contact"> Get In Touch </h2>
                     <p>If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
                     <div style={{margin:"2rem"}}>
-                    <a class="link_button" title="sumiiitjsahu@gmail.com" href="mailto:sumiiitjsahu@gmail.com?subject=Say Hello&amp;body=Hi Sumit, How you doing?">Say Hello!</a>
-                    <a class="link_button" href={resume} target="_blank" rel="noopener noreferrer">View Resume </a>
+                    <a className="link_button" title="sumiiitjsahu@gmail.com" href="mailto:sumiiitjsahu@gmail.com?subject=Say Hello&amp;body=Hi Sumit, How you doing?">Say Hello!</a>
+                    <a className="link_button" href={resume} target="_blank" rel="noopener noreferrer">View Resume </a>
                     </div>
                     <div className="contact_social">
                         <a href="mailto:sumiiitjsahu@gmail.com"><i className="fas fa-envelope-square" target="_blank" rel="noopener noreferrer"></i></a>
