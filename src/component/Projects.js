@@ -17,8 +17,8 @@ function Projects() {
                                 <div className="name">
                                     <h2>Unite</h2>
                                     <div className="links">
-                                    <a target="_blank" href="https://justunite.herokuapp.com/">See Live</a>
-                                    <a target="_blank" href="https://github.com/Sumit-Sahu/unite">Github</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://justunite.herokuapp.com/">See Live</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Sumit-Sahu/unite">Github</a>
                                     </div>
                                 </div>
                             </div>
@@ -32,8 +32,8 @@ function Projects() {
                                 <div className="name">
                                     <h2>SimpleMail</h2>
                                     <div className="links">
-                                    <a target="_blank" href="https://testapi.pythonanywhere.com/">See Live</a>
-                                    <a target="_blank" href="https://github.com/Sumit-Sahu/simplemail">Github</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://testapi.pythonanywhere.com/">See Live</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Sumit-Sahu/simplemail">Github</a>
                                     </div>
                                 </div>
                             </div>
@@ -47,8 +47,8 @@ function Projects() {
                                 <div className="name">
                                     <h2>Portfolio Website</h2>
                                     <div className="links">
-                                    <a target="_blank" href="https://sumit-sahu.github.io/">See Live</a>
-                                    <a target="_blank" href="https://github.com/Sumit-Sahu/Sumit-Sahu.github.io">Github</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://sumit-sahu.github.io/">See Live</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Sumit-Sahu/Sumit-Sahu.github.io">Github</a>
                                     </div>
                                 </div>
                             </div>
@@ -62,8 +62,8 @@ function Projects() {
                                 <div className="name">
                                     <h2>Vigyapan</h2>
                                     <div className="links">
-                                    <a target="_blank" href="https://oohh.herokuapp.com/">See Live</a>
-                                    <a target="_blank" href="https://github.com/Sumit-Sahu/vigyapan">Github</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://oohh.herokuapp.com/">See Live</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Sumit-Sahu/vigyapan">Github</a>
                                     </div>
                                 </div>
                             </div>
