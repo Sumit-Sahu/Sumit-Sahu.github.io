@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1d762ac.chunk.css",
-    "main.js": "/static/js/main.026fffe5.chunk.js",
-    "main.js.map": "/static/js/main.026fffe5.chunk.js.map",
+    "main.css": "/static/css/main.8271ce9d.chunk.css",
+    "main.js": "/static/js/main.495d5608.chunk.js",
+    "main.js.map": "/static/js/main.495d5608.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7bc89341.js",
     "runtime-main.js.map": "/static/js/runtime-main.7bc89341.js.map",
     "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
-    "static/js/2.8aab67d7.chunk.js": "/static/js/2.8aab67d7.chunk.js",
-    "static/js/2.8aab67d7.chunk.js.map": "/static/js/2.8aab67d7.chunk.js.map",
+    "static/js/2.102c07bb.chunk.js": "/static/js/2.102c07bb.chunk.js",
+    "static/js/2.102c07bb.chunk.js.map": "/static/js/2.102c07bb.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5600769e63da972df99d1981ef06f500.js": "/precache-manifest.5600769e63da972df99d1981ef06f500.js",
+    "precache-manifest.3a8be6b8ab1d7210fc64a43129d090c0.js": "/precache-manifest.3a8be6b8ab1d7210fc64a43129d090c0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
-    "static/css/main.f1d762ac.chunk.css.map": "/static/css/main.f1d762ac.chunk.css.map",
-    "static/js/2.8aab67d7.chunk.js.LICENSE.txt": "/static/js/2.8aab67d7.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/back.2558857e.jpg",
-    "static/media/sumit-resume.pdf": "/static/media/sumit-resume.3b77952c.pdf"
+    "static/css/main.8271ce9d.chunk.css.map": "/static/css/main.8271ce9d.chunk.css.map",
+    "static/js/2.102c07bb.chunk.js.LICENSE.txt": "/static/js/2.102c07bb.chunk.js.LICENSE.txt",
+    "static/media/bookvigyapan.png": "/static/media/bookvigyapan.35e4c400.png",
+    "static/media/mail.png": "/static/media/mail.cf765f75.png",
+    "static/media/portfolio.png": "/static/media/portfolio.c6d90f73.png",
+    "static/media/sumit-resume.pdf": "/static/media/sumit-resume.1ece1455.pdf",
+    "static/media/unite.png": "/static/media/unite.d34633aa.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7bc89341.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.8aab67d7.chunk.js",
-    "static/css/main.f1d762ac.chunk.css",
-    "static/js/main.026fffe5.chunk.js"
+    "static/js/2.102c07bb.chunk.js",
+    "static/css/main.8271ce9d.chunk.css",
+    "static/js/main.495d5608.chunk.js"
   ]
 }
