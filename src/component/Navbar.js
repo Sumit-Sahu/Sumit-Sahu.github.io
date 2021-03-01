@@ -1,17 +1,46 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
-    const [section, setsection] = useState(['About', 'Skills', 'Project', 'Contact']);
+    const [section, setsection] = useState(['Home','About', 'Skills', 'Projects', 'Contact']);
+
+    const handleScroll = () =>{
+        if (window.scrollY > 100) {
+            document.querySelector(".nav").className = "nav scroll";
+          } else {
+            document.querySelector(".nav").className = "nav";
+          }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll',handleScroll);
+        return () => {
+            window.removeEventListener('scroll');
+        }
+    }, [handleScroll]);
+
+    
+
+
     return (
         <>
-            <nav id="nav" className="navbar">
-                <div className="nav-content">
-                    <div className="nav-inner-wrapper">
-                        <ul className='nav-list'>
+            <nav id="nav" className="nav">
+                <div className="nav_content">
+                    <div className="nav_inner_wrapper">
+                        <ul className='nav_list'>
                             {section.map((link, index) => {
-                                <li key={index} className="nav-item">
-                                    <Link >{link}</Link>
-                                </li>
+                                return (
+                                    <li key={link} className="nav_item">
+                                        <Link 
+                                        spy={true}
+                                        duration={1000}
+                                        activeClass="active-section"
+                                        offset={-60} 
+                                        className="nav_link" 
+                                        to={link.toLowerCase()}><span>{link}</span></Link>
+                                    </li>
+                                )
+
                             })}
                         </ul>
                     </div>
